@@ -1,0 +1,18 @@
+{
+	"Dokumenty":
+	{
+		"i":"/ikony/places/scalable/folder-documents.svg"
+	},
+	"Obrazy":
+	{
+		"i":"/ikony/places/scalable/folder-images.svg"
+	},
+	"Filmy":
+	{
+		"i":"/ikony/places/scalable/folder-videos.svg"
+	},
+	"Muzyka":
+	{
+		"i":"/ikony/places/scalable/folder-music.svg"
+	}
+}

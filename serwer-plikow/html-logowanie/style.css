@@ -1,0 +1,172 @@
+body
+{
+	font-family: 'Open Sans', sans-serif;
+	background: #00309c;
+	margin: 0;
+	overflow: hidden;
+	font-size: 0;
+	color: #FFF;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.ekranWczytywania
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	z-index: 9999;
+	background: #FFF;
+}
+.zawartosc
+{
+	margin-top: 80px;
+	height: calc(100vh - 160px);
+	background: #5a7edc;
+	background-image: radial-gradient(#87A1E6, #5a7edc 500px);
+	background-repeat: no-repeat;
+	background-position: -200px -400px;
+	background-size: 1000px 1000px;
+	overflow: hidden;
+}
+.kolumna
+{
+	width: calc(50% - 60.5px);
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 30px;
+	height: calc(100%);
+	overflow: hidden;
+}
+.kolumna:first-child
+{
+	text-align: right;
+	font-size: 16px;
+}
+.kolumna:last-child
+{
+	padding-right: 0;
+	width: calc(50% - 30.5px);
+}
+.kolumna:first-child img
+{
+	display: block;
+	margin-left: auto;
+	max-width: 100%;
+}
+.kolumna-srodek
+{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	max-height: 100%;
+	overflow: hidden;
+}
+.kolumna-srodek:hover
+{
+	overflow-y: auto;
+}
+.kolumna:first-child .kolumna-srodek
+{
+	overflow: hidden;
+}
+.vl
+{
+	margin-top: 40px;
+	width: 1px;
+	height: calc(100vh - 240px);
+	background: linear-gradient(#FFF0, #FFF, #FFF, #FFF0);
+	display: inline-block;
+}
+.uzytkownicy
+{
+	margin: 30px 0;
+}
+.uzytkownik
+{
+	clear: both;
+	height: 60px;
+	padding: 10px;
+	border-top-left-radius: 40px;
+	border-bottom-left-radius: 40px;
+	transition-duration: 0.25s;
+	background-position: -350px 0;
+	background-repeat: no-repeat;
+	background-image: linear-gradient(110deg, #1040ad, #1040ad00 350px);
+	cursor: pointer;
+	opacity: 0.75;
+	width: 400px;
+}
+.uzytkownik:hover
+{
+	opacity: 1;
+}
+.uzytkownik.wybrany
+{
+	background-position: 0;
+	cursor: default;
+	opacity: 1;
+}
+.uzytkownik img
+{
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	vertical-align: top;
+	margin-right: 10px;
+	float: left;
+}
+.uzytkownik span
+{
+	font-size: 16px;
+	display: block;
+	margin-bottom: 8px;
+}
+.uzytkownik input
+{
+	opacity: 0;
+	transition-duration: 0.25s;
+	pointer-events: none;
+}
+.uzytkownik.wybrany input
+{
+	opacity: 1;
+	pointer-events: initial;
+}
+input
+{
+	font-family: 'Open Sans', sans-serif;
+	vertical-align: top;
+}
+input[type=password]
+{
+	border: none;
+	margin: 0;
+	padding: 4px 10px;
+	border-radius: 4px;
+	margin-right: 5px;
+	line-height: 20px;
+}
+input[type=submit]
+{
+	border: none;
+	padding: 0;
+	height: 28px;
+	width: 28px;
+	background: #0C0;
+	color: #FFF;
+	border-radius: 4px;
+	cursor: pointer;
+	transition-duration: 0.5s;
+	font-size: 20px;
+	line-height: 28px;
+}
+input[type=submit]:hover
+{
+	background: #0D0;
+}

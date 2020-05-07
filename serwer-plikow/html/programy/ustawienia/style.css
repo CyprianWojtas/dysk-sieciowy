@@ -1,0 +1,18 @@
+.ikona
+{
+	text-align: center;
+	display: inline-block;
+	font-size: 12px;
+	cursor: pointer;
+}
+.ikona img
+{
+	display: block;
+	height: 48px;
+	margin: auto;
+}
+
+.uzytkownicy img
+{
+	height: 100px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Przeglądarka plików</title>
+		<link rel="favicon" href="/ikony/places/scalable/folder_open.svg">
+		<link rel="stylesheet" href="/css/program.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="/fontello/css/fontello.css">
+		<script src="/biblioteki/jquery-3.3.1.min.js"></script>
+	</head>
+	<body>
+		<div class="lewoMenu">
+			<div class="zakladka-biblioteki" onclick="przejdz ('Biblioteki');">Biblioteki</div>
+			<div class="zakladka-dom">Katalog domowy</div>
+			<div class="zakladka-glowny" onclick="przejdz ('/');">Katalog główny</div>
+		</div>
+		<div class="prawo">
+			<div class="przycisk-wyzej">↑</div>
+			<div class="przycisk-cofnij">↶</div>
+			<div class="przycisk-powtorz">↷</div>
+			<input type="text" class="sciezka">
+			<div class="pliki zaznaczanieObszar">
+				<fieldset>
+					<legend>OPIS</legend>
+					PLIKI
+				</fieldset>
+			</div>
+			<div class="przestrzen"></div>
+			<div class="urzadzenia"></div>
+		</div>
+		<script src="/biblioteki/zaznaczanie.js"></script>
+		<script type="module" src="/biblioteki/program-mod.js"></script>
+		<script defer src="skrypt.js"></script>
+	</body>
+</html>

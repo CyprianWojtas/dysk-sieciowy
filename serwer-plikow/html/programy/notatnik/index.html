@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8">
+		<title>Notatnik</title>
+		<link rel="favicon" href="/ikony/apps/scalable/notepad.svg">
+		<link rel="stylesheet" href="/css/program.css">
+		<link rel="stylesheet" href="style.css">
+		<script src="jquery-3.3.1.min.js"></script>
+	</head>
+	<body>
+		<div class="pasekOpcji">
+			<div class="kategoria">
+				Plik
+				<div class="lista">
+					<ul>
+						<li class="aktywny" onclick="nowy()">Nowy</li>
+						<li class="hr"></li>
+						<li class="nieaktywny">Zapisz</li>
+						<li>Zapisz jako</li>
+					</ul>
+				</div>
+			</div>
+			<div class="kategoria">
+				Widok
+				<div class="lista">
+					<ul>
+						<li class="kategoria">
+							Podświetlanie kodu
+							<div class="lista pasek-podswietlanieKodowania"></div>
+						</li>
+						<li class="kategoria">
+							Skórka
+							<div class="lista pasek-style"></div>
+						</li>
+						<li class="aktywny" onclick="zawijajWiersze()">Zawijanie wierszy</li>
+					</ul>
+				</div>
+			</div>
+			<div class="kategoria">
+				Informacje
+				<div class="lista">
+					<ul>
+						<li>O programie</li>
+						<li class="aktywny" onclick="wczytaj('pliki/LICENSE', true)">Licencja Ace</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<pre id="editor"></pre>
+		
+		<script src="/biblioteki/program.js"></script>
+		<script src="src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+		<script src="src-noconflict/ext-modelist.js"></script>
+		<script src="skrypt.js"></script>
+
+	</body>
+</html>

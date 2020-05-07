@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2019 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="cancel" unicode="&#xe813;" d="M654 349l346-346-154-154-346 346-346-346-154 154 346 346-346 346 154 154 346-346 346 346 154-154z" horiz-adv-x="1000" />
+
+<glyph glyph-name="login" unicode="&#xf02c;" d="M0 359q0 33 24 57t57 23h344l-111 111q-24 23-24 56t24 58q24 23 57 23t57-23l247-248q24-24 24-57t-24-57l-242-242q-24-24-57-24t-57 24-23 56 23 58l106 105h-344q-34 0-57 23t-24 57z m582-397q0 33 23 57t57 23h72q18 0 30 13t12 29v532q0 17-12 29t-30 13h-72q-33 0-57 23t-23 57 23 57 57 23h72q84 0 144-59t59-143v-532q0-84-60-144t-143-59h-72q-33 0-57 24t-23 57z" horiz-adv-x="937.5" />
+
+<glyph glyph-name="logout" unicode="&#xf02d;" d="M0 84q0-84 59-143t144-60h72q33 0 57 24t23 57-23 57-57 23h-72q-18 0-30 13t-12 29v532q0 17 12 29t30 13h72q33 0 57 23t23 57-23 57-57 23h-72q-84 0-144-59t-59-143v-532z m238 252q0 33 24 57t57 23h344l-110 111q-24 23-24 57t24 57q23 23 57 23t56-23l248-248q23-24 23-57t-23-57l-243-242q-23-23-57-23t-57 23q-23 23-23 57t24 57l105 105h-344q-33 0-57 23t-24 57z" horiz-adv-x="937.5" />
+
+<glyph glyph-name="window-maximize" unicode="&#xf2d0;" d="M143 64h714v429h-714v-429z m857 625v-678q0-37-26-63t-63-27h-822q-36 0-63 27t-26 63v678q0 37 26 63t63 27h822q37 0 63-27t26-63z" horiz-adv-x="1000" />
+
+<glyph glyph-name="window-minimize" unicode="&#xf2d1;" d="M1000 118v-107q0-37-26-63t-63-27h-822q-36 0-63 27t-26 63v107q0 37 26 63t63 26h822q37 0 63-26t26-63z" horiz-adv-x="1000" />
+
+<glyph glyph-name="window-restore" unicode="&#xf2d2;" d="M143-7h428v286h-428v-286z m571 286h286v428h-429v-143h54q37 0 63-26t26-63v-196z m429 482v-536q0-37-26-63t-63-26h-340v-197q0-37-26-63t-63-26h-536q-36 0-63 26t-26 63v536q0 37 26 63t63 26h340v197q0 37 26 63t63 26h536q36 0 63-26t26-63z" horiz-adv-x="1142.9" />
+</font>
+</defs>
+</svg>

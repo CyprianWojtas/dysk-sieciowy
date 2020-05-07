@@ -1,0 +1,70 @@
+.obraz
+{
+	width: 100vw;
+	height: calc(100vh - 50px);
+	object-fit: scale-down;
+	transition: 0.25s opacity;
+}
+.tlo
+{
+	position: fixed;
+	z-index: -1;
+	width: calc(100vw + 100px);
+	height: calc(100vh + 50px);
+	object-fit: cover;
+	opacity: 0.5;
+	top: -50px;
+	left: -50px;
+	filter: blur(25px);
+	transition: 0.25s opacity;
+}
+.wczytywanie
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	line-height: 100vh;
+	color: #888;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	z-index: -1;
+	transition: 0.25s opacity;
+	transition-delay: 0.5s;
+}
+.ukryte
+{
+	opacity: 0;
+	transition-delay: 0s;
+}
+.sterowanie
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	color: #FFF;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	background: #0052E2;
+	height: 50px;
+	line-height: 50px;
+}
+.sterowanie div
+{
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background: #0004;
+	margin: 0 10px;
+	line-height: 32px;
+	cursor: pointer;
+}
+.sterowanie .nieaktywny
+{
+	background: transparent;
+	opacity: 0.5;
+}

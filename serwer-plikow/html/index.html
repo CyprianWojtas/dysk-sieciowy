@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Dysk sieciowy</title>
+		<link rel="icon" href="/img/favicon.ico" type="image/vnd.microsoft.icon">
+		<link rel="shortcut icon" href="/img/favicon.ico" type="image/vnd.microsoft.icon">
+		<link rel="manifest" href="/manifest.json">
+		<link rel="stylesheet" href="/css/czcionki/czcionka.css">
+		<link rel="stylesheet" href="/css/style.css">
+		<link rel="stylesheet" href="/fontello/css/fontello.css">
+		<link rel="stylesheet" href="/biblioteki/jquery-ui-1.12.1/jquery-ui.min.css">
+		<script src="/biblioteki/jquery-3.3.1.min.js"></script>
+		<script src="/biblioteki/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+		<script src="/biblioteki/jquery.ui.touch-punch.min.js"></script>
+	</head>
+	<body>
+		<div class="programy"></div>
+		<div class="programyObszar"></div>
+		<div class="pulpit zaznaczanieObszar"></div>
+		<div class="pasekProgramow">
+			<button class="menu">
+				<img src="/ikony/start.png" alt="">
+			</button>
+			<div class="lewo">
+				<!--<div class="ikonyWiecej">▲</div>-->
+				<div class="lewoTacka">
+					<div class="ikony">
+						<!--<div class="powiadomienia">
+							<img src="/ikony/panel/indicator-messages.svg" alt="P">
+						</div>-->
+					</div>
+					<div class="zegar"></div>
+				</div>
+			</div>
+			<div class="pasek-programy"></div>
+		</div>
+		<div class="menuOkno">
+			<div class="kolumnaLewo">
+				<div class="programyMenu"></div>
+			</div>
+			<div class="kolumnaPrawo">
+				<div class="menuUzytkownik"></div>
+				<div class="menuPrawoProgramy">
+					<div title="Moje dokumenty" onclick="program.otworz('/programy/przegladarka-plikow/index.html', {katalog: `~/Dokumenty`}, true)">
+						Dokumenty
+					</div>
+					<div title="Moje obrazy" onclick="program.otworz('/programy/przegladarka-plikow/index.html', {katalog: `~/Obrazy`}, true)">
+						Obrazy
+					</div>
+					<div title="Moje filmy" onclick="program.otworz('/programy/przegladarka-plikow/index.html', {katalog: `~/Filmy`}, true)">
+						Filmy
+					</div>
+					<div title="Moja muzyka" onclick="program.otworz('/programy/przegladarka-plikow/index.html', {katalog: `~/Muzyka`}, true)">
+						Muzyka
+					</div>
+					<hr>
+					<!--<div title="Ustawienia" onclick="program.otworz('/programy/ustawienia/index.html', null, true)">
+						Ustawienia
+					</div>-->
+					<div title="Użytkownicy" onclick="program.otworz('/programy/ustawienia/podstrony/uzytkownicy/index.html', null, true)">
+						Użytkownicy
+					</div>
+				</div>
+
+
+			</div>
+			<div class="stopka">
+				<div class="wyloguj">
+					<i class="icon-logout"></i>
+					Wyloguj
+				</div>
+			</div>
+		</div>
+		<div class="ekranWczytywania"></div>
+		<script src="/biblioteki/api.js"></script>
+		<script src="/biblioteki/obrazy.js"></script>
+		<script src="/biblioteki/zaznaczanie.js"></script>
+		<script src="/js/programy.js"></script>
+		<script src="/js/glowny.js"></script>
+	</body>
+</html>

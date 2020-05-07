@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Temperatura dysków</title>
+		<meta charset="utf-8">
+		<script language="javascript" src="/biblioteki/jquery-3.3.1.min.js"></script>
+		<style>
+		body
+		{
+			background: #000;
+			color: #FFF;
+			font-family: sans-serif;
+			margin: 0;
+			overflow: hidden;
+		}
+		.legenda
+		{
+			display: inline-block;
+			vertical-align: top;
+			position: absolute;
+			right: 25px;
+			top: 25px;
+		}
+		.legenda div
+		{
+			display: inline-block;
+			width: 18px;
+			height: 18px;
+			border-radius: 100%;
+			vertical-align: text-bottom;
+			margin: 3px 0;
+		}
+		.legenda td
+		{
+			vertical-align: top;
+			padding: 0 5px;
+		}
+		#canvas
+		{
+			position: absolute;
+		}
+		</style>
+	</head>
+	<body>
+		<div>
+			<canvas id="canvas" width="1280" height="720"></canvas>
+			<table class="legenda"></table>
+		</div>
+		<script src="/biblioteki/program.js"></script>
+		<script src="temperatura.js"></script>
+	</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Ustawienia | Użytkownicy</title>
+		<link rel="favicon" href="/ikony/categories/scalable/configuration_section.svg">
+		<link rel="stylesheet" href="/css/program.css">
+		<link rel="stylesheet" href="style.css">
+		<script src="/biblioteki/jquery-3.3.1.min.js"></script>
+	</head>
+	<body>
+		<div class="uzytkownicy">
+			<a href="../../index.html" class="powrot">⤺</a>
+			<div class="uzytkownicy-lista"></div>
+			<div class="uzytkownik nowy" onclick="nowy()"><img src="/img/avatar-nowy.png" alt=""><span>Nowy użytkownik</span></div>
+		</div>
+		<div class="ustawienia">
+			<div class="tabelaFR"><img src="/img/avatar.png"><input type="text" class="pole-nazwa" disabled></div><br>
+			<label>Wyświetlana nazwa: <input type="text" class="pole-wyswietlanaNazwa"></label><br>
+			<label>Hasło: <input class="pole-haslo" type="password"></label><br>
+			<div class="ukryty"><label>Powtórz hasło: <input class="pole-haslo2" type="password"></label></div>
+			<label><input class="pole-administrator" type="checkbox"> Uprawnienia administratora</label>
+			<hr>
+			<h3>Informacje</h3>
+			<label>Numer pokoju: <input type="text" class="pole-pokoj"></label><br>
+			<label>Numer telefonu: <input type="text" class="pole-telefon"></label><br>
+			<label>Numer telefonu stacjonarnego: <input type="text" class="pole-telefonStac"></label><br>
+			<label>Inne: <input type="text" class="pole-inne"></label><br>
+			<div class="dol">
+				<button onclick="zapisz()">Zapisz</button>
+			</div>
+		</div>
+		<script src="/biblioteki/api.js"></script>
+		<script src="/biblioteki/obrazy.js"></script>
+		<script src="/biblioteki/program.js"></script>
+		<script src="skrypt.js"></script>
+	</body>
+</html>

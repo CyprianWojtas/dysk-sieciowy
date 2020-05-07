@@ -1,0 +1,7 @@
+
+.icon-cancel:before { content: '\e813'; } /* '' */
+.icon-login:before { content: '\f02c'; } /* '' */
+.icon-logout:before { content: '\f02d'; } /* '' */
+.icon-window-maximize:before { content: '\f2d0'; } /* '' */
+.icon-window-minimize:before { content: '\f2d1'; } /* '' */
+.icon-window-restore:before { content: '\f2d2'; } /* '' */

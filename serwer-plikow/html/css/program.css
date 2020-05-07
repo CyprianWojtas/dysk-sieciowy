@@ -1,0 +1,109 @@
+@import url('/css/czcionki/czcionka.css');
+
+body
+{
+	font-family: 'Open Sans', sans-serif;
+	overflow: hidden;
+	margin: 0;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	font-size: 12px;
+}
+.fl
+{
+	float: left;
+}
+.fr
+{
+	float: right;
+}
+.pasekOpcji
+{
+	height: 20px;
+	background: #DDD;
+	background-image: linear-gradient(#EEE, #DDD);
+}
+.pasekOpcji hr
+{
+	border: none;
+	height: 1px;
+	background: #DDD;
+	margin: 2px 0;
+}
+.pasekOpcji .kategoria
+{
+	height: 20px;
+	line-height: 20px;
+	padding: 0 5px;
+	display: inline-block;
+	position: relative;
+}
+.pasekOpcji .kategoria:hover
+{
+	background: #7ea2ed;
+	color: #FFF;
+}
+.pasekOpcji .lista
+{
+	position: absolute;
+	z-index: 999;
+	background: #FFF;
+	color: #000;
+	white-space: nowrap;
+	top: 20px;
+	left: 0;
+	border: 1px solid #CCC;
+	display: none;
+}
+.pasekOpcji .kategoria:hover > .lista
+{
+	display: block;
+}
+.pasekOpcji ul
+{
+	display: inline-block;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+}
+.pasekOpcji li
+{
+	padding: 0 10px;
+}
+.pasekOpcji .lista > ul > li:hover
+{
+	background: #7ea2ed;
+	color: #FFF;
+}
+.pasekOpcji .lista > ul > .nieaktywny
+{
+	color: #888;
+}
+.pasekOpcji .lista > ul > .nieaktywny:hover
+{
+	background: #EEE;
+	color: #888;
+}
+.lista .kategoria .lista
+{
+	left: 100%;
+	top: -1px;
+}
+.lista .kategoria
+{
+	padding-right:  20px !important;
+	display: block;
+}
+.lista .kategoria:after
+{
+	content: "▶";
+	position: absolute;
+	right: 5px;
+	font-size: 8px;
+	line-height: 20px;
+}

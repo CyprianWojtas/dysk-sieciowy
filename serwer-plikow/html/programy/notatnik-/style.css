@@ -1,0 +1,10 @@
+textarea
+{
+	resize: none;
+	width: 100%;
+	height: calc(100vh - 50px);
+	margin: 0;
+	padding: 8px;
+	border: none;
+	box-sizing: border-box;
+}
